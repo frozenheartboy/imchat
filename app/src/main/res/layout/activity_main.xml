@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/buttom_bar_group"
@@ -34,7 +34,7 @@
                     android:textColor="#FFFFFF"
                     android:text="99+"
                     android:gravity="center"
-                    android:background="@mipmap/skin_tips_newmessage_pic" />
+                    android:background="@drawable/tab_newnotify" />
             </FrameLayout>
         </RelativeLayout>
 

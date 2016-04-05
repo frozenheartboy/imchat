@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.lzs.imchat.MainActivity;
 import com.lzs.imchat.R;
 
 public class WelcomeActivity extends Activity {
