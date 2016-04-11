@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 import com.lzs.imchat.MainActivity;
 import com.lzs.imchat.R;
+import com.lzs.imchat.service.MsfService;
 
 public class WelcomeActivity extends Activity {
 	private Context mContext;
@@ -30,6 +31,8 @@ public class WelcomeActivity extends Activity {
 		mImageView.postDelayed(new Runnable() {
 			@Override
 			public void run() {
+				Intent intent1=new Intent(mContext, MsfService.class);
+				startService(intent1);
 				Intent intent = new Intent(mContext, MainActivity.class);
 				startActivity(intent);
 				finish();
